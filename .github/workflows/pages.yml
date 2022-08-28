@@ -26,6 +26,7 @@ jobs:
     permissions:
       id-token: write
       contents: write
+      pages: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
