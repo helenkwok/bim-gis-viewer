@@ -2,6 +2,8 @@ import {
   IFCWALL,
   IFCWALLSTANDARDCASE,
   IFCSLAB,
+  IFCCOVERING,
+  IFCCOLUMN,
   IFCWINDOW,
   IFCMEMBER,
   IFCPLATE,
@@ -11,7 +13,10 @@ import {
   IFCFLOWTERMINAL,
   IFCBUILDINGELEMENTPROXY,
   IFCDOOR,
-  IFCFURNISHINGELEMENT
+  IFCFURNISHINGELEMENT,
+  IFCSTAIR,
+  IFCSTAIRFLIGHT,
+  IFCRAILING
 } from 'web-ifc';
 
 const setUpMultiThreading = async (viewer) => {
@@ -62,11 +67,14 @@ const ifcToGLFT = async (viewer, db, url) => {
     categories: {
         walls: [IFCWALL, IFCWALLSTANDARDCASE],
         slabs: [IFCSLAB],
+        ceilings: [IFCCOVERING],
+        columns: [IFCCOLUMN],
         windows: [IFCWINDOW],
         curtainwalls: [IFCMEMBER, IFCPLATE, IFCCURTAINWALL],
         doors: [IFCDOOR],
         furniture: [IFCFURNISHINGELEMENT],
         pipes: [IFCFLOWFITTING, IFCFLOWSEGMENT, IFCFLOWTERMINAL],
+        stairs: [IFCSTAIR, IFCSTAIRFLIGHT, IFCRAILING],
         undefined: [IFCBUILDINGELEMENTPROXY],
     },
     getProperties: true,

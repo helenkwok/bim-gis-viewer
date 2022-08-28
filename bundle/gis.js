@@ -52102,7 +52102,7 @@ randomButton.addEventListener('click', () => {
     location.reload();
 });
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZWdnd2FmZmxlIiwiYSI6ImNsN2EzNGk0MzA4enIzdnE0M2JzYTQ0YTQifQ.Wu5_MRYaqEgQbBJpP4ujeQ';
+mapboxgl.accessToken = process.env.MAPBOX_API_KEY;
 const map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/light-v10',
