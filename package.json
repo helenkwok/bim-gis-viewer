@@ -1,0 +1,28 @@
+{
+  "name": "bim-gis-viewer",
+  "version": "1.0.0",
+  "description": "a submission to IFC.js hackathon",
+  "main": "index.html",
+  "author": {
+    "name": "Helen Kwok",
+    "url": "https://github.com/helenkwok"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "dependencies": {
+    "dexie": "^3.2.2",
+    "three": "^0.135.0",
+    "web-ifc": "^0.0.35",
+    "web-ifc-three": "^0.0.118",
+    "web-ifc-viewer": "^1.0.207"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "rollup": "^2.70.2"
+  }
+}
