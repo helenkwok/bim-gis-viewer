@@ -36,4 +36,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         env:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           MAPBOX_API_KEY: ${{ secrets.MAPBOX_API_KEY }}
