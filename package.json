@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "dexie": "^3.2.2",
+    "dotenv": "^16.0.1",
     "three": "^0.135.0",
     "web-ifc": "^0.0.35",
     "web-ifc-three": "^0.0.118",
@@ -21,7 +22,6 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-node-resolve": "^13.2.1",
-    "dotenv": "^16.0.1",
     "nodemon": "^2.0.19",
     "rollup": "^2.70.2"
   }
