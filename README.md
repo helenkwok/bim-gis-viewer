@@ -9,7 +9,7 @@ Honorable Mention in IFC.js Crash Course 1st Edition Hackathon: [https://www.lin
 
 ## Key Features
 
-- Place your model to anywhere you want or move it randomly (BIM-GIS integration)
+- Place your model anywhere you want or move it randomly (BIM-GIS integration)
 - Support 3D measurement
 - Read IFC properties by clicking elements
 - Add clipping planes to find internal elements
