@@ -126676,6 +126676,7 @@ const ifcToGLFT = async (viewer, db, url) => {
         furniture: [IFCFURNISHINGELEMENT],
         pipes: [IFCFLOWFITTING, IFCFLOWSEGMENT, IFCFLOWTERMINAL],
         stairs: [IFCSTAIR, IFCSTAIRFLIGHT, IFCRAILING],
+        spaces: [IFCSPACE],
         undefined: [IFCBUILDINGELEMENTPROXY],
     },
     getProperties: true,
