@@ -16,7 +16,8 @@ import {
   IFCFURNISHINGELEMENT,
   IFCSTAIR,
   IFCSTAIRFLIGHT,
-  IFCRAILING
+  IFCRAILING,
+  IFCSPACE
 } from 'web-ifc';
 
 const setUpMultiThreading = async (viewer) => {
@@ -75,6 +76,7 @@ const ifcToGLFT = async (viewer, db, url) => {
         furniture: [IFCFURNISHINGELEMENT],
         pipes: [IFCFLOWFITTING, IFCFLOWSEGMENT, IFCFLOWTERMINAL],
         stairs: [IFCSTAIR, IFCSTAIRFLIGHT, IFCRAILING],
+        spaces: [IFCSPACE],
         undefined: [IFCBUILDINGELEMENTPROXY],
     },
     getProperties: true,
