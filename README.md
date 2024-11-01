@@ -1,4 +1,4 @@
-# bim-gis-viewer
+# BIM-GIS Viewer
 
 ![img](BIM-GIS.png)
 Try it out: [https://extraordinary-belekoy-ee7fa8.netlify.app](https://extraordinary-belekoy-ee7fa8.netlify.app)
